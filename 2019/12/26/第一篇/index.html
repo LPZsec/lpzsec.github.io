@@ -118,43 +118,6 @@
 			</a>
 
 			
-				<!-- 
-	This is only a demo, please go to "https://time.is" to set your city time! 
--->
-<style type="text/css">
-	.header-date {
-		font-size: 1.6rem;
-		color: #fff;
-		position: absolute;
-		bottom: 5px;
-		right: 1rem;
-		writing-mode: tb-rl;
-	}	
-	
-	.header-date a {
-		border-bottom: none;
-	}
-
-	@media only screen and (max-width: 768 ) {
-		.header-date {
-			font-size: 1rem;
-		}			
-	}
-</style>
-<div class="header-date">
-	<a href="https://time.is/Beijing" target="_blank" id="time_is_link" rel="nofollow noopener" ></a>
-	<span id="Beijing_z43d"></span>
-</div>
-<script src="//widget.time.is/zh.js"></script>
-<script>
-	time_is_widget.init({
-		Beijing_z43d:{
-			template:"DATE", 
-			date_format:"year年 monthname dnum日"
-		}
-	});
-</script>
-			
 		</div>
 	</div>
 </header>
@@ -381,7 +344,7 @@
 	<span>
 		<a href="javascript: window.scrollTo(0, 0);">返回顶部</a>
 		
-			<a href="/2019/12/26/hello%20word/" title="第一篇" rel="prev">
+			<a href="/2019/12/31/hello%20word/" title="hello word" rel="prev">
 				&laquo;上一篇
 			</a>
 		
@@ -399,7 +362,33 @@
 
 <div class="relate-post">
 	
-		<div>Please check the post_relate setting in config.yml of hexo-theme-Annie! You should make sure 'postsEnable == true' and the number of site posts greater than 1.</div>	
+		<ul>
+			
+					<li>
+						<div class="relate-post-text">
+							<a class="relate-post-title" href="/2019/12/31/hello%20word/" title="hello word">
+								hello word			
+							</a>
+							<p class="relate-post-date">
+								<i class="fa fa-calendar"></i>
+								十二月 31日, 2019				
+							</p>
+							<p class="relate-post-content">
+								哈哈哈哈，博客正式营业了，谢谢刚子哥的抠图。民国十年等不来一场，一生等不来一句刚子哥带你！
+
+							</p>
+						</div>
+
+						<div class="relate-post-cover">
+							<a href="/2019/12/31/hello%20word/" title="hello word">				
+								
+								<img class="lazy" src="/img/placeholder.jpg" data-src="/img/lpz.jpg" alt="hello word"/>
+							</a>
+						</div>
+					</li>											
+			
+			
+		</ul>
 	
 </div>	
 			</div>
@@ -470,8 +459,8 @@
 		//id: (window.location.pathname).split("/").pop().substring(0, 49),
 		id: decodeURI( md5( location.href.trimEnd('#.*$,\\?.*$,index.html$') ) ),
 		repo: 'Blog-LPZ-Repo',
-		owner: 'Sariay',
-		admin: 'Sariay',
+		owner: 'LPZsec',
+		admin: 'LPZsec',
 		distractionFreeMode: 'true',
 	})
 	gitalk.render('gitalk-container');
@@ -731,17 +720,6 @@
 
 	<!-- busuanzi -->
 	<!-- busuanzi -->
-
-		
-	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-	
-
-		<span id="busuanzi_container_page_pv">
-	  		本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-		</span>
-
-	
-
 
 
 
